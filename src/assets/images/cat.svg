@@ -1,0 +1,46 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 고양이 몸통 -->
+  <ellipse cx="100" cy="140" rx="50" ry="40" fill="#FF8C42" stroke="#000" stroke-width="2"/>
+
+  <!-- 고양이 머리 -->
+  <circle cx="100" cy="80" r="45" fill="#FF8C42" stroke="#000" stroke-width="2"/>
+
+  <!-- 고양이 귀 -->
+  <polygon points="70,50 85,25 100,50" fill="#FF8C42" stroke="#000" stroke-width="2"/>
+  <polygon points="100,50 115,25 130,50" fill="#FF8C42" stroke="#000" stroke-width="2"/>
+
+  <!-- 귀 안쪽 -->
+  <polygon points="75,45 82,32 92,45" fill="#FFB366"/>
+  <polygon points="108,45 118,32 125,45" fill="#FFB366"/>
+
+  <!-- 고양이 눈 -->
+  <ellipse cx="85" cy="75" rx="8" ry="12" fill="#000"/>
+  <ellipse cx="115" cy="75" rx="8" ry="12" fill="#000"/>
+  <ellipse cx="85" cy="72" rx="3" ry="5" fill="#fff"/>
+  <ellipse cx="115" cy="72" rx="3" ry="5" fill="#fff"/>
+
+  <!-- 고양이 코 -->
+  <polygon points="100,85 95,95 105,95" fill="#FFB366" stroke="#000" stroke-width="1"/>
+
+  <!-- 고양이 입 -->
+  <path d="M100,95 Q90,105 85,100" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100,95 Q110,105 115,100" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 고양이 수염 -->
+  <line x1="60" y1="80" x2="40" y2="75" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="90" x2="40" y2="90" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <line x1="140" y1="80" x2="160" y2="75" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <line x1="140" y1="90" x2="160" y2="90" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 고양이 다리 -->
+  <ellipse cx="75" cy="175" rx="12" ry="20" fill="#FF8C42" stroke="#000" stroke-width="2"/>
+  <ellipse cx="125" cy="175" rx="12" ry="20" fill="#FF8C42" stroke="#000" stroke-width="2"/>
+
+  <!-- 고양이 발 -->
+  <ellipse cx="75" cy="190" rx="15" ry="8" fill="#FFB366" stroke="#000" stroke-width="2"/>
+  <ellipse cx="125" cy="190" rx="15" ry="8" fill="#FFB366" stroke="#000" stroke-width="2"/>
+
+  <!-- 고양이 꼬리 -->
+  <path d="M150,130 Q180,120 185,90 Q180,70 160,75" fill="none" stroke="#FF8C42" stroke-width="15" stroke-linecap="round"/>
+  <path d="M150,130 Q180,120 185,90 Q180,70 160,75" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+</svg>
